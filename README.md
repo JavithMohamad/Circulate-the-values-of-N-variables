@@ -23,11 +23,13 @@ Assign the value of second variable to a temporary variable
 #Program to circulate N values.
 #Developed by: JAVITH M 
 #RegisterNumber:212222110014
+```
 def circulate():
     list1=eval(input())
     n=int(input())
     result=list1[n:]+list1[:n]
     print("After circulating the values are:",result)
+```
 ## Output:
 ![exp2](https://user-images.githubusercontent.com/121215951/229993345-a19ff17d-edfe-4e9b-9d55-dd740d6f5602.png)
 
